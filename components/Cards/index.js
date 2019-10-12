@@ -44,7 +44,7 @@ function cardCreator(data) {
 
     card.classList.add('card');
     headline.classList.add('headline');
-    author.classList.add('class');
+    author.classList.add('author');
     authorImgContainer.classList.add('img-container');
     
     headline.textContent = data.headline;
